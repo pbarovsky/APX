@@ -13,6 +13,14 @@ APX is a command-line interface (CLI) package manager based on `apt`, specifical
 To install APX, run the following commands in your terminal:
 
 ```bash
+git clone https://github.com/pbarovsky/APX.git
+```
+
+```bash
+cd APX
+```
+
+```bash
 chmod +x install_apx.sh
 ./install_apx.sh
 ```
@@ -49,7 +57,7 @@ APX translates its commands into corresponding APT commands, making it easier to
 
 ---
 
-## GIF Demonstrations
+## Demonstrations
 
 ### Installing and removing package with APX
 ![Installing Packages](./images/2.png)
@@ -78,5 +86,3 @@ The help menu provides detailed information about all available commands.
 
 ## Contributing
 Feel free to contribute by submitting pull requests or reporting issues in the GitHub repository. Your feedback and contributions are appreciated!
-
----
