@@ -22,6 +22,9 @@ cd APX
 
 ```bash
 chmod +x install_apx.sh
+```
+
+```bash
 ./install_apx.sh
 ```
 
@@ -73,7 +76,7 @@ apx ru
 ```
 
 The help menu provides detailed information about all available commands.
-![Installing Packages](./images/1.png)
+![Installing Packages](./images/pic.png)
 
 ---
 
