@@ -57,13 +57,6 @@ APX translates its commands into corresponding APT commands, making it easier to
 
 ---
 
-## Demonstrations
-
-### Installing and removing package with APX
-![Installing Packages](./images/2.png)
-
----
-
 ## Help
 To view the help menu:
 
