@@ -16,7 +16,7 @@ Copy this repository to `$ZSH_CUSTOM/custom/plugins`, where `$ZSH_CUSTOM` is the
 git clone https://github.com/pbarovsky/APX.git $ZSH_CUSTOM/plugins/apx
 ```
 
-Then add this line to your .zshrc. Make sure it is before the line source $ZSH/oh-my-zsh.sh.
+Then add this line to your .zshrc.
 
 ```bash
 plugins=(apx)
@@ -89,7 +89,7 @@ apx ru
 ```
 
 The help menu provides detailed information about all available commands.
-![Installing Packages](./images/pic.png)
+![Installing Packages](./images/pic_1.png)
 
 ---
 
