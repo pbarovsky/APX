@@ -1,4 +1,4 @@
-# APX - Alias Package Manager
+# APX - (zsh plugin) Alias Package Manager 
 
 APX is a command-line interface (CLI) package manager based on `apt`, specifically designed for Ubuntu-based distributions. It provides an intuitive alias system to simplify the process of managing packages.
 
@@ -9,7 +9,20 @@ APX is a command-line interface (CLI) package manager based on `apt`, specifical
 
 ---
 
-## Installation
+## Installation (oh-my-zsh)
+Copy this repository to `$ZSH_CUSTOM/custom/plugins`, where `$ZSH_CUSTOM` is the directory with custom plugins of oh-my-zsh
+
+```bash
+git clone https://github.com/pbarovsky/APX.git $ZSH_CUSTOM/plugins/apx
+```
+
+Then add this line to your .zshrc. Make sure it is before the line source $ZSH/oh-my-zsh.sh.
+
+```bash
+plugins=(apx)
+```
+
+## Installation (not as a plugin. In .bashrc and .zshrc)
 To install APX, run the following commands in your terminal:
 
 ```bash
